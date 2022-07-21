@@ -1,0 +1,28 @@
+/* основной цвет текста #8F95A5 */
+/* дополнительный цвет текста  #000000 */
+/* цвет фона #FFFFFF */
+/* дополнительный цвет фона #E5E5E5 */
+/* акцент */
+
+body {
+    background-color:#FFFFFF ;
+    color:#8F95A5 ;
+}
+
+/* Site nav */
+.site-nav .link {
+    color: #263238;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color:#8F95A5 ;
+}
+ /* Hero */
+
+ .hero-title {
+    color: #000000;
+ }
+
+ .section-title {
+    color: #000000;
+ }
