@@ -17,12 +17,12 @@ body {
     background-color:var(--primary-bg-color);
     color: var(--primary-text-color); 
     font-family: Poppins, sans-serif;
+    line-height: 1.5;
 }
 /* Logo */
  .logo-header {
         color: var(--title-text-color);
-         font-size: 36px;
-         line-height: 54px;  
+         font-size: 36px;  
  }
  .logo-end {
    color: var(--logo-color);
@@ -34,7 +34,6 @@ body {
        text-decoration: none;
        font-weight: 500;
        font-size: 20px;
-       line-height: 1.5;
         }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -49,7 +48,6 @@ body {
 
    background-color: var(--primary-bg-color);
    font-size: 20px;
-   line-height: 1.5;
    text-align: center;
    letter-spacing: 0.03em;
 }
@@ -66,14 +64,11 @@ body {
     color: var(--title-text-color);
    font-weight: 600;
       font-size: 48px;
-      line-height: 1.5;
       text-align: center;
  }
 
  .hero-title + .discription {
-      font-weight: 400;
       font-size: 24px;
-      line-height: 1.5;
       color: var(--primary-text-color);
  }
  
@@ -82,11 +77,9 @@ body {
     color: var(--add-text-color);
    font-weight: 600;
    font-size: 30px;
-   line-height: 1.5;
  }
 .skills-list .description {
       font-size: 16px;
-      line-height: 1.5;
  }
  .skills-list {
    list-style: none;
@@ -102,25 +95,48 @@ body {
    font-size: 20px;
    line-height: 1.8;
 }
- /* Pricing */
- .text-counter {
-   color: var(--color-counter);
-   font-weight: 600;
-   font-size: 48px;
-   line-height: 1.5;
- }
- .text {
-   font-size: 20px;
-   line-height: 30px;
-   color: var(--primary-text-color);
- }
-.counter-list {
-   list-style: none;
+.text-counter {
+  color: var(--color-counter);
+  font-weight: 600;
+  font-size: 48px;
 }
-/* Pricing */
+
+.text {
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--primary-text-color);
+}
+.counter-list {
+  list-style: none;
+}
+
+ /* Pricing */
+ .pricing-list {
+  list-style: none;
+ }
+
  .pricing-list .title {
     color: var(--add-text-color);
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.6;
+    text-transform: capitalize;
  }
+ .discripton-pricing {
+    font-size: 20px;
+ }
+.price {
+    font-size: 24px;
+    text-align: center;
+    color: var(--add-text-color);
+    background-color: #EEEEEE;
+}
+.permonth {
+    font-size: 18px;
+    text-align: center;
+    color: #546269;
+    background-color: #EEEEEE;
+}
 
  /* Button */
  .button-skills {
@@ -129,7 +145,24 @@ body {
    font-family: inherit;
    font-weight: 500;
    font-size: 18px;
-   line-height: 1.5;
+ }
+
+ /* Form */
+ /* Contacts */
+
+ .email {
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--primary-text-color);
+ }
+ .submit {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-bg-color);
+    background-color: var(--add-text-color);
+
  }
  /* Footer */
  .footer-list {
@@ -138,7 +171,6 @@ body {
  .footer-list__link {
    text-decoration: none;
    font-size: 24px;
-   line-height: 1.5;
    letter-spacing: 0.02em;
    color: var(--primary-text-color);
  }
