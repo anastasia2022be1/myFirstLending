@@ -9,36 +9,33 @@
     --add-text-color:#263238;
     --accent-color:#E5E5E5;
     --primary-bg-color:#FFFFFF;
+    --logo-color:#939393;
+    --color-counter:#2A3246;
 }
 
 body {
     background-color:var(--primary-bg-color);
     color: var(--primary-text-color); 
+    font-family: Poppins, sans-serif;
 }
+/* Logo */
  .logo-header {
-        color: #939393}
-/*position: absolute;
-width: 106px;
-height: 54px;
-left: 131px;
-top: 63px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 54px;
-display: flex;
-align-items: center;
-
-color: #000000;
-*/
+        color: var(--title-text-color);
+         font-size: 36px;
+         line-height: 54px;  
+ }
+ .logo-end {
+   color: var(--logo-color);
+ }
 
 /* Site nav */
 .site-nav .link {
     color: var(--add-text-color);
        text-decoration: none;
-}
+       font-weight: 500;
+       font-size: 20px;
+       line-height: 1.5;
+        }
 .site-nav .link:hover,
 .site-nav .link:focus {
     color:var(--primary-text-color) ;
@@ -47,30 +44,102 @@ color: #000000;
 .site-nav {
     list-style: none;
 }
+
+.button-header {
+
+   background-color: var(--primary-bg-color);
+   font-size: 20px;
+   line-height: 1.5;
+   text-align: center;
+   letter-spacing: 0.03em;
+}
  /* Hero */
 
  .hero-title {
     color: var(--title-text-color);
- }
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 1.25;
+      }
 
  .section-title {
     color: var(--title-text-color);
+   font-weight: 600;
+      font-size: 48px;
+      line-height: 1.5;
+      text-align: center;
  }
+
+ .hero-title + .discription {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 1.5;
+      color: var(--primary-text-color);
+ }
+ 
  /* Skills */
  .skills-list .title {
     color: var(--add-text-color);
+   font-weight: 600;
+   font-size: 30px;
+   line-height: 1.5;
  }
- .description .skills-list {
-    color:var(--primary-text-color)
+.skills-list .description {
+      font-size: 16px;
+      line-height: 1.5;
  }
-
+ .skills-list {
+   list-style: none;
+ }
+ .skill-list-item {
+   background-color: var(--accent-color);
+ }
+/* About us */
+.section-about-us {
+   text-align: left;
+}
+.discription-about-us {
+   font-size: 20px;
+   line-height: 1.8;
+}
  /* Pricing */
+ .text-counter {
+   color: var(--color-counter);
+   font-weight: 600;
+   font-size: 48px;
+   line-height: 1.5;
+ }
+ .text {
+   font-size: 20px;
+   line-height: 30px;
+   color: var(--primary-text-color);
+ }
+.counter-list {
+   list-style: none;
+}
+/* Pricing */
  .pricing-list .title {
     color: var(--add-text-color);
  }
 
  /* Button */
  .button-skills {
-    color:var(--primary-bg-color);
-    background-color: var(--add-text-color)
+   color:var(--primary-bg-color);
+   background-color: var(--add-text-color);
+   font-family: inherit;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 1.5;
  }
+ /* Footer */
+ .footer-list {
+   list-style: none;
+ }
+ .footer-list__link {
+   text-decoration: none;
+   font-size: 24px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: var(--primary-text-color);
+ }
+ 
