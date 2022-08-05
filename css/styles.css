@@ -27,7 +27,21 @@ body {
  .logo-end {
    color: var(--logo-color);
  }
+ /* Container */
+ .container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  width: 1338px;
+  padding-left: 20px;
+  padding-right: 20px;
+  outline: 2px solid tomato;
+ }
 
+ /* Header */
+ .page-header {
+  background-color: #ccc;
+ }
 /* Site nav */
 .site-nav .link {
     color: var(--add-text-color);
@@ -50,6 +64,14 @@ body {
    font-size: 20px;
    text-align: center;
    letter-spacing: 0.03em;
+   color: var(--title-text-color);
+
+    min-width: 200px;
+    padding: 20px 56px;
+   
+    border: 2px solid #263238;
+    border-radius: 10px;
+
 }
  /* Hero */
 
@@ -68,10 +90,20 @@ body {
  }
 
  .hero-title + .discription {
-      font-size: 24px;
-      color: var(--primary-text-color);
+    font-size: 24px;
+    color: var(--primary-text-color);
  }
- 
+ .button-hero {
+    min-width: 298px;
+    padding: 23px 64px;
+
+    font-size: 36px;    
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-bg-color);
+    background-color: var(--add-text-color);
+    border-radius: 10px;
+ }
  /* Skills */
  .skills-list .title {
     color: var(--add-text-color);
@@ -145,23 +177,48 @@ body {
    font-family: inherit;
    font-weight: 500;
    font-size: 18px;
+
+   min-width: 230px;
+   padding-left: 64px;
+   padding-right: 63px;
+   padding-top: 17px;
+   padding-bottom: 16px; 
+   border: 1px solid #000000;
+   border-radius: 10px;
  }
 
  /* Form */
  /* Contacts */
 
  .email {
+    display: inline-block;
+
     font-size: 16px;
     line-height: 1.88;
     color: var(--primary-text-color);
+
+    min-width: 365px;
+    padding: 20px 30px;
+    border: 1px solid #8F95A5;
+    border-radius: 10px;
+
+    margin-bottom: 5px;
+
  }
  .submit {
+
+  display: inline-block;
     font-weight: 500;
     font-size: 20px;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-bg-color);
     background-color: var(--add-text-color);
+
+    width: 312px;
+    height: 70px;
+    left: 1157px;
+    top: 4035px;
 
  }
  /* Footer */
