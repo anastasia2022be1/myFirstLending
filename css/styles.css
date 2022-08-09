@@ -22,7 +22,10 @@ body {
 /* Logo */
  .logo-header {
         color: var(--title-text-color);
-         font-size: 36px;  
+        font-size: 36px;  
+        margin-top: 8px;
+        margin-bottom: 8px;
+
  }
  .logo-end {
    color: var(--logo-color);
@@ -45,11 +48,27 @@ body {
  }
 /* Site nav */
 .site-nav .link {
+  display: block;
     color: var(--add-text-color);
-       text-decoration: none;
-       font-weight: 500;
-       font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
         }
+ .site-nav .item {
+  outline: 2px solid red;
+ 
+}
+/*.site-nav .item:last-child {
+  margin-right: 0;
+} */
+.site-nav .item:not(:last-child) {
+  margin-right: 50px; 
+}
 .site-nav .link:hover,
 .site-nav .link:focus {
     color:var(--primary-text-color) ;
@@ -57,6 +76,7 @@ body {
 }
 .site-nav {
     list-style: none;
+    display: flex;
 }
 
 .button-header {
@@ -171,9 +191,13 @@ body {
 
  /* Pricing */
  .pricing-list {
+  display: flex;
+
   list-style: none;
-  display: inline-block;
   margin:30px;
+ }
+ .pricing-list .item:not(:last-child) {
+  margin-right: 30px;
  }
 
  .pricing-list .title {
