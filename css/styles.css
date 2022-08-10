@@ -138,6 +138,9 @@ body {
     color: var(--primary-text-color);
     margin-top: 0;
     margin-bottom: 60px;
+    width: 540px;
+    margin-right: 0;
+
  }
  .button-hero {
     min-width: 298px;
@@ -154,6 +157,10 @@ body {
   margin-top: 0;
   margin-bottom: 180px;
  }
+.container-hero {
+  display: flex;
+  flex-direction: row;
+}
  /* Skills */
  .section {
   margin-top: 0;
@@ -189,20 +196,37 @@ body {
 .discription-about-us {
    font-size: 20px;
    line-height: 1.8;
+   width: 652px;
+   margin-right: 146px;
 }
 .text-counter {
   color: var(--color-counter);
   font-weight: 600;
   font-size: 48px;
+  margin-top: 0;
+  margin-bottom: 6px;
+
 }
 
 .text {
   font-size: 20px;
   line-height: 30px;
   color: var(--primary-text-color);
+  margin: 0;
+  max-width: 108px;
+  text-align: center;
 }
 .counter-list {
   list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-content: start;
+  flex-wrap: wrap;
+  gap: 130px;
+}
+.container-about-us {
+  display: flex;
+  flex-direction: row;
 }
 
  /* Pricing */
@@ -215,6 +239,9 @@ body {
  .pricing-list .item:not(:last-child) {
   margin-right: 30px;
  }
+ /* .pricing-list:last-child {
+  top: 0;
+ } */
 
  .pricing-list .title {
     color: var(--add-text-color);
@@ -227,18 +254,34 @@ body {
     font-size: 20px;
     margin-top: 0;
     margin-bottom: 26px;
+    width: 426px;
  }
 .price {
     font-size: 24px;
     text-align: center;
     color: var(--add-text-color);
-    background-color: #EEEEEE;
+  
 }
 .permonth {
     font-size: 18px;
     text-align: center;
     color: #546269;
-    background-color: #EEEEEE;
+    
+}
+.price-permonth {
+  width: 260px;
+  height: 45px;
+  text-align: center;
+  background-color: #EEEEEE;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content:center;
+  justify-content:space-evenly;
+  align-items: baseline;
+  
+
 }
 
  /* Button */
