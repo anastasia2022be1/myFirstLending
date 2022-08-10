@@ -39,7 +39,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 5px;
-  width: 1338px;
+  width: 1378px;
   padding-left: 20px;
   padding-right: 20px;
   /* outline: 2px solid tomato; */
@@ -55,8 +55,9 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
   box-sizing: content-box;
+  height: 70px;
  }
 /* Site nav */
 .site-nav .link {
@@ -160,6 +161,7 @@ body {
 .container-hero {
   display: flex;
   flex-direction: row;
+  
 }
  /* Skills */
  .section {
@@ -169,26 +171,73 @@ body {
  /* .section:nth-child(even) {
   background-color: aqua;
  }
- .section:nth-child(odd) {
+ .section:nth-child(odd) {}
   background-color:rebeccapurple; */
- }
- .skills-list .title {
-    color: var(--add-text-color);
-   font-weight: 600;
-   font-size: 30px;
-   margin-top: 0;
-   margin-bottom: 20px;
+ 
+.skill-list-item .title {
+  color: var(--add-text-color);
+  font-weight: 600;
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 20px;
  }
 .description-skills {
       font-size: 16px;
       margin-bottom: 30px;
       margin-top: 0;
  }
- 
+ .skills-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  /* flex-direction: row;
+  align-items: flex-start; */
+  /* flex-wrap: wrap;
+  gap: 30px; */
+  justify-content: space-between;
+
+
+
+ }
  .skill-list-item {
    background-color: var(--accent-color);
-   margin: 30px;
+   padding-top: 32px;
+   padding-left: 18px;
+   padding-right: 18px;
+   width: 426px;
  }
+ /* .skill-list-item:last-child {
+  width: 882px;
+ } */
+ .skill-list-wrapper {
+  width: 426px;
+ }
+ .skill-list-wrapper-1 {
+  width: 882px;
+ }
+ .flex-wrapper {
+  display: flex;
+  flex-direction: row;
+ }
+ /* .skill-list-item:nth-child(1) {
+  width: 426px;
+  height: 947px;
+   }
+ .skill-list-item:nth-child(2) {
+  flex-basis: calc((100%-60px)/3);
+  height: 579px;
+ }
+ .skill-list-item:nth-child(3) {
+  flex-basis: calc((100%-60px)/3);
+  height: 579px;
+  margin-right: 0;
+   }
+ 
+ .skill-list-item:nth-child(4) {
+  width: 882px;
+  height: 338px; */
+   }
+  
 /* About us */
 .section-about-us {
    text-align: left;
@@ -205,6 +254,7 @@ body {
   font-size: 48px;
   margin-top: 0;
   margin-bottom: 6px;
+  text-align: center;
 
 }
 
@@ -227,14 +277,16 @@ body {
 .container-about-us {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
 }
 
  /* Pricing */
  .pricing-list {
   display: flex;
+  justify-content: space-around;
 
   list-style: none;
-  margin:30px;
+  margin:0px;
  }
  .pricing-list .item:not(:last-child) {
   margin-right: 30px;
