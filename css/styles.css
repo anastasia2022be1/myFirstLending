@@ -38,7 +38,6 @@ body {
  .container {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 5px;
   width: 1378px;
   padding-left: 20px;
   padding-right: 20px;
@@ -57,7 +56,6 @@ body {
   align-items: center;
   justify-content: space-between;
   /* outline: 2px solid red; */
-  box-sizing: content-box;
   height: 70px;
  }
 /* Site nav */
@@ -162,6 +160,8 @@ body {
 .container-hero {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   
 }
  /* Skills */
@@ -290,6 +290,16 @@ height: 100%;
 
   list-style: none;
   margin:0px;
+  padding-left: 0;
+ }
+ .pricing-list .item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+  align-content: center;
+  justify-content: flex-end;
+  align-items: flex-start;
+
  }
  .pricing-list .item:not(:last-child) {
   margin-right: 30px;
@@ -335,7 +345,8 @@ height: 100%;
   align-content:center;
   justify-content:space-evenly;
   align-items: baseline;
-  
+  margin-bottom: 0;
+  margin-top: auto;
 
 }
 
@@ -370,9 +381,16 @@ height: 100%;
 .wrapper-img {
   margin-right: 144px;
 }
+.wrapper-form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 0;
+  /* не работает-не по ширине контейнера-ограничивается р */
+}
 .email-submit {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
  .email {
     display: inline-block;
@@ -381,7 +399,7 @@ height: 100%;
     line-height: 1.88;
     color: var(--primary-text-color);
 
-    min-width: 365px;
+    min-width: 425px;
     padding: 20px 30px;
     border: 1px solid #8F95A5;
     border-radius: 10px;
@@ -401,6 +419,7 @@ height: 100%;
     letter-spacing: 0.03em;
     color: var(--primary-bg-color);
     background-color: var(--add-text-color);
+    width: 312px;
 
     padding: 20px 56px;
     border-radius: 10px;
@@ -428,7 +447,7 @@ height: 100%;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 55px;
-  border-top: 1px #C4C4C4;
-  /* почему не работает? */
+  border-top: 1px solid #C4C4C4;
+  padding-top: 22px;
  }
  
