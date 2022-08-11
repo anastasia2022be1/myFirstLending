@@ -216,6 +216,7 @@ height: 100%;
 }
 .skill-list-item-3 {
   width: 882px;
+  display: flex;
 }
  .flex-wrapper {
   display: flex;
