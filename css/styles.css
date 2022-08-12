@@ -222,25 +222,7 @@ height: 100%;
   display: flex;
   margin-bottom: 30px;;
  }
- /* .skill-list-item:nth-child(1) 
-  width: 426px;
-  height: 947px;
-   }
- .skill-list-item:nth-child(2) {
-  flex-basis: calc((100%-60px)/3);
-  height: 579px;
- }
- .skill-list-item:nth-child(3) {
-  flex-basis: calc((100%-60px)/3);
-  height: 579px;
-  margin-right: 0;
-   }
- .skill-list-item:nth-child(4) {
-  width: 882px;
-  height: 338px; */
-  /* .skill-list-item:last-child {
-  width: 882px;
- } */
+
 
 /* About us */
 .section-about-us {
