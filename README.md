@@ -1,6 +1,6 @@
 # myFirstLending
 
-There are ny first steps to creating landing page
+There are my first steps to creating landing page
 
 I have free layout from Figma
 https://www.figma.com/file/nHnQAuAruUuWQ2LsSjO6YR/Britlex-Language-School layout
